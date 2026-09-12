@@ -41,7 +41,7 @@ function main() {
     }
     case "count": {
       const n = store.count();
-      console.log(n === 1 ? "1 note" : `${n} notes`);
+      console.log(n === 1 ? "You have 1 note." : `You have ${n} notes.`);
       break;
     }
     case "delete": {
